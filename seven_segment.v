@@ -15,6 +15,9 @@ output reg [6:0]o
 // |       |
 //  ---d---
 
+/*
+This combinational always block sets up outputs to properly display a number on a seven segment display based on a 4 bit input
+*/
 always @(*)
 begin
    o[0] = !((!i[2] & !i[0]) | (i[3]& !i[1] & !i[0]) | (i[3] & !i[2] & !i[1]) | (!i[3] & i[2] & i[0]) | (i[2] & i[1]) | (!i[3] & i[1]));
