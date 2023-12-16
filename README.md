@@ -26,6 +26,9 @@ After we created the FSM we realized we would need a delay module to prevetn dou
 ## Video
 <a href="https://youtu.be/uIiN3dSYbE0">link</a>
 
+#### Caption
+Video shows the DE-115 board playing our game. In the video we explain the object of the game and how everything is tied together. Addtioanlly we show some code of an LSFR which generates the random number for game. lastly we show the games capabilities by showing how it can go into negative numbers based on if you are wrong or right.
+
 ## Conclusion
 With more time we would hope to expand on certain functions of our game and make it more advanced. Our project took us about 20 hours of work and we would have liked to do more but time was not on our side. Some ideas we would've liked to add were a VGA module and song tempo to make the game more like Gutair Hero. Another idea we had was to conntect a original Gutiar Hero gutair controller to have correspond to the notes you should hit. Our repository holds the Verilog programs that were used to create our game, a high level description of what each module does, a video of our team playing the game, and pictures of the different screens that appear throughout the game.
 
